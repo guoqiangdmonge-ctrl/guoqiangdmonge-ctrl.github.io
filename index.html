@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Qiang Guo | AI for Credit Risk &amp; Financial Decision-Making</title>
+  <meta name="description" content="Qiang Guo, Senior Expert in Risk Strategy at Ant Group and prospective PhD student (Fall 2028) in AI for finance. Interests: AI for credit risk and financial decision-making, causal inference and experimentation, and machine learning under distribution shift and cold start.">
+  <meta name="author" content="Qiang Guo">
+  <meta property="og:title" content="Qiang Guo">
+  <meta property="og:description" content="AI for credit risk and financial decision-making · causal inference and experimentation · ML under distribution shift and cold start.">
+  <meta property="og:type" content="profile">
+  <meta property="og:url" content="https://guoqiangdmonge-ctrl.github.io/">
+  <link rel="canonical" href="https://guoqiangdmonge-ctrl.github.io/">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231f3a5f'/%3E%3Ctext x='32' y='42' font-family='Georgia,serif' font-size='28' fill='white' text-anchor='middle'%3EQG%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page">
+
+    <header class="hero">
+      <!-- PHOTO: to use a photo, put e.g. photo.jpg in the repo root, delete the <div class="avatar"> line below,
+           and uncomment this line:
+      <img class="avatar" src="photo.jpg" alt="Photo of Qiang Guo" width="140" height="140">
+      -->
+      <div class="avatar" aria-hidden="true">QG</div>
+
+      <div class="hero-text">
+        <h1>Qiang Guo</h1>
+        <p class="tagline">Senior Expert, Risk Strategy at Ant Group<br>Prospective PhD student (Fall 2028) in AI for Finance</p>
+        <p class="location">Beijing, China</p>
+        <ul class="links">
+          <li><a href="mailto:qguoaf@connect.ust.hk">Email</a></li>
+          <li><a href="https://github.com/guoqiangdmonge-ctrl">GitHub</a></li>
+          <!-- <li><a href="cv.pdf">CV</a></li> -->
+          <!-- <li><a href="https://www.linkedin.com/in/...">LinkedIn</a></li> -->
+        </ul>
+      </div>
+    </header>
+
+    <section id="about">
+      <h2>About</h2>
+      <p>
+        I work on data-driven decision-making in consumer and small-business credit. Over about seven years at
+        <strong>Ant Group</strong>, <strong>ByteDance</strong> and <strong>Du Xiaoman Financial</strong>, I have designed
+        large-scale pricing experiments, built and refit machine-learning models for newly launched customer segments,
+        worked on network-based transaction modeling, and developed fraud detection models, all deployed in production
+        credit systems.
+      </p>
+      <p>
+        I currently lead credit-line and pricing strategy for Huabei installment loans at Ant Consumer Finance. I am
+        applying to PhD programs for Fall 2028 to put this applied work on rigorous methodological foundations.
+        I hold an MSc in Electronic Engineering from HKUST.
+      </p>
+    </section>
+
+    <section id="interests">
+      <h2>Research Interests</h2>
+      <ul class="interests">
+        <li><strong>AI for credit risk and financial decision-making</strong></li>
+        <li><strong>Causal inference and experimentation</strong></li>
+        <li><strong>Machine learning under distribution shift and cold start</strong></li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Selected Projects</h2>
+
+      <article class="project">
+        <h3>Platform-wide pricing experiment and risk-based pricing</h3>
+        <p class="meta">Ant Group · Experimental design &amp; causal inference</p>
+        <p>
+          Designed an unbiased, statistically powered, platform-wide price-discount experiment to estimate
+          segment-level discount ROI (lifecycle × risk tier × creditworthiness tier) and locate its inflection point.
+          Used the results to build a risk-based price-increase policy for price-insensitive users that offsets margin
+          lost to discounts, and defined requirements for price-response models.
+        </p>
+      </article>
+
+      <article class="project">
+        <h3>Cold start for a new lending segment</h3>
+        <p class="meta">Ant Group · Data enrichment &amp; operator identification</p>
+        <p>
+          Built the credit strategy for a new lending vertical: lithium-battery purchase financing for heavy-truck
+          drivers, a small segment that lacked business-operation signals (identity, business cash flow, operating
+          capability). Combined manufacturer-provided data with internal risk data, identified self-employed and
+          small-business operators, and mined features and refit models for the new population. The strategy raised
+          approval rate and full-line coverage while holding risk stable.
+        </p>
+      </article>
+
+      <article class="project">
+        <h3>Supply-demand network modeling for offline transactions</h3>
+        <p class="meta">Ant Group · Network-based modeling</p>
+        <p>
+          Modeled supply-demand networks to assess whether transaction needs are plausible in higher-risk offline
+          merchant settings, and used this to raise full-line coverage only for selected transactions. Used AI to
+          identify, generate and match network structures, run model refits, and condense the results into deployable
+          decision rules that were put into production.
+        </p>
+      </article>
+
+      <article class="project">
+        <h3>Risk × creditworthiness framework for SME credit-line decisions</h3>
+        <p class="meta">ByteDance · Decision modeling under risk constraints</p>
+        <p>
+          Designed a two-dimensional risk × creditworthiness framework for credit-line decisions in SME lending, with
+          channel-specific eligibility boundaries and incremental offer optimization. With risk constraints held,
+          approval rate rose 50% (relative), credit lines doubled, and risk fell 20%.
+        </p>
+      </article>
+
+      <article class="project">
+        <h3>Credit-validity-extension field experiment</h3>
+        <p class="meta">Du Xiaoman Financial · Field experiment</p>
+        <p>
+          Designed an experiment that moved risk screening to the transaction stage to address data staleness and
+          adverse selection when re-approving expired customers. Risk fell 5% and utilization rose 10%.
+        </p>
+      </article>
+
+      <article class="project">
+        <h3>Telecom-fraud detection models</h3>
+        <p class="meta">Du Xiaoman Financial · Fraud detection &amp; imbalanced classification</p>
+        <p>
+          Developed three generations of telecom-fraud detection models from scratch, covering basic scam patterns,
+          large-loan differentiation and real-time features, reaching 90%+ fraud recall and cutting fraud incidence to
+          0.01%. The project won the company Innovation Award two quarters in a row.
+        </p>
+      </article>
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+
+      <div class="entry">
+        <div class="entry-head">
+          <h3>Ant Group, Ant Consumer Finance (Huabei Installments)</h3>
+          <span class="date">Dec 2025 – Present</span>
+        </div>
+        <p class="role">Senior Expert, Risk Strategy · Beijing</p>
+        <p>Owns credit-line and pricing strategy for a consumer installment portfolio: pricing experiments and
+          risk-based pricing, cold-start strategy for new segments, network-based modeling, and AI-assisted feature
+          mining and experiment monitoring.</p>
+      </div>
+
+      <div class="entry">
+        <div class="entry-head">
+          <h3>Juzi Shuke</h3>
+          <span class="date">Aug 2025 – Dec 2025</span>
+        </div>
+        <p class="role">Risk Strategy Expert · Beijing</p>
+        <p>Owned credit acquisition for the in-app feed-ad channel; improved approval rate and lowered cost per sale.</p>
+      </div>
+
+      <div class="entry">
+        <div class="entry-head">
+          <h3>ByteDance</h3>
+          <span class="date">Dec 2022 – Aug 2025</span>
+        </div>
+        <p class="role">SME Credit Risk Strategy Expert · Beijing</p>
+        <ul>
+          <li>Built a risk × creditworthiness decision framework for SME credit lines (see Selected Projects).</li>
+          <li>In merchant lending, used risk tiering to allocate credit exposure by cycle, competitiveness and customer
+            response; segment risk fell 30% and outstanding balance doubled in one year.</li>
+          <li>Evaluated the ROI of 8 categories of alternative data (e.g., business registration, merchant acquiring,
+            e-commerce, tax invoices, customs) and onboarded them for SME profiling, creditworthiness and GMV
+            estimation; designed the test plans and wrote the evaluation reports.</li>
+        </ul>
+      </div>
+
+      <div class="entry">
+        <div class="entry-head">
+          <h3>Du Xiaoman Financial</h3>
+          <span class="date">Jun 2019 – Dec 2022</span>
+        </div>
+        <p class="role">Risk Strategy Expert (Oct 2021 – Dec 2022) · Senior Algorithm Engineer (Jun 2019 – Oct 2021) · Beijing</p>
+        <ul>
+          <li>Used high-value, response and price-sensitivity models to reallocate line and price offers to
+            approved-but-undrawn customers, lifting utilization by 5%.</li>
+          <li>Built small-business signals from business registration and offline activity data; initial credit lines
+            rose 10% while relative risk fell 30%.</li>
+          <li>Mined 20+ fraud features from device and app-list data (online recall +10%); led a liveness-detection
+            program that doubled impostor-detection precision and cut manual review volume by 85% at 99% recall.</li>
+          <li>Built a T+1 case-monitoring platform that stopped 2 large organized fraud rings, plus real-time feature
+            services and data pipelines.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+
+      <div class="entry">
+        <div class="entry-head">
+          <h3>The Hong Kong University of Science and Technology (HKUST)</h3>
+          <span class="date">Sep 2018 – Nov 2019</span>
+        </div>
+        <p class="role">MSc in Electronic Engineering · Hong Kong</p>
+      </div>
+
+      <div class="entry">
+        <div class="entry-head">
+          <h3>Nanjing University of Aeronautics and Astronautics (NUAA)</h3>
+          <span class="date">Sep 2014 – Jun 2018</span>
+        </div>
+        <p class="role">BEng in Aircraft Power Engineering · Nanjing, China</p>
+      </div>
+
+      <div class="entry">
+        <div class="entry-head">
+          <h3>National Tsing Hua University (NTHU)</h3>
+          <span class="date">Sep 2016 – Jan 2017</span>
+        </div>
+        <p class="role">Exchange Student, Mechanical Engineering · Hsinchu, Taiwan</p>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <dl class="skills">
+        <dt>Methods</dt>
+        <dd>Experiment design and A/B testing; ML modeling (feature engineering, IV analysis, model refit); risk modeling; network-based feature construction</dd>
+        <dt>Programming</dt>
+        <dd>SQL, Python, Shell, Hadoop (proficient); Java, Spark (familiar)</dd>
+        <dt>Certification</dt>
+        <dd>PMP</dd>
+        <dt>Languages</dt>
+        <dd>Mandarin (native), English (professional), Spanish (A1)</dd>
+      </dl>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>
+        Email: <a href="mailto:qguoaf@connect.ust.hk">qguoaf@connect.ust.hk</a><br>
+        GitHub: <a href="https://github.com/guoqiangdmonge-ctrl">github.com/guoqiangdmonge-ctrl</a>
+      </p>
+    </section>
+
+    <footer>
+      <p>Last updated: October 2026</p>
+    </footer>
+  </main>
+</body>
+</html>
